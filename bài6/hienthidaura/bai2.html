@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="filenhung.js"></script>
 </head>
 <body>
+<div id="messageDiv"></div>
 <button type="button" onclick="showMessage();">Click Me!</button>
-
+<script>
+    function showMessage(){
+        document.getElementById('messageDiv').innerHTML = 'Xin chào!';
+    }
+</script>
 </body>
 </html>
